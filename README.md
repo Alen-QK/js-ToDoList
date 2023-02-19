@@ -3,5 +3,5 @@
 A web application based on vanilla JavaScript and webpack.
 
 ## Quick boot
-npm install
+npm install  
 npm run start
