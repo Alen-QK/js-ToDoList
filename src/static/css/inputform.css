@@ -1,0 +1,54 @@
+.inputBox {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*border: red 1px solid;*/
+}
+
+.inputBox .inputTask .submitButton {
+    margin: 0;
+}
+
+.inputTask {
+    width: 75%;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: auto;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputTask::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.submitButton {
+    font-family: 'Poppins', sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.submitButton:hover {
+    background-color: aqua;
+}
+
+.tasksBox {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    /*border: blue 1px solid;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#countEle {
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}

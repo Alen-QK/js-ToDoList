@@ -1,0 +1,28 @@
+.singleTaskBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /*border: green 1px solid;*/
+    margin: auto auto 10px auto;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.singleTaskBox #checkBox {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.singleTaskBox #taskText {
+    margin-left: 10px;
+}
+
+.singleTaskBox #deleteButton {
+    border: none;
+    background-image: url("../image/delete.png");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+}
